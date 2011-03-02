@@ -10,10 +10,9 @@ class general {
     include rsyslog
     include logrotate
     include cron
-    include timezone
+#    include timezone
 #    include ntp
-#    include iptables::disable
-    include iptables # And firewall for All!
+#    include iptables # And firewall for All!
     include sysctl
     include rootmail
 
